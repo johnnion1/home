@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Welcome!</title>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="halfColor"></div>
+
+      <div id="headerContent">
+        <div class="left">
+          <picture>
+            <source
+              media="(max-width: 799px)"
+              srcset="/assets/images/GIMP images/pexels-kampus-480x480-scaled.jpg"
+            />
+            <source
+              media="(min-width: 800px)"
+              srcset="/assets/images/GIMP images/pexels-kampus-720x720-scaled.jpg"
+            />
+
+            <source
+              media="(min-width: 1000px)"
+              srcset="/assets/images/GIMP images/pexels-kampus-1000x1398-scaled.jpg"
+            />
+            <img
+              id="headshot"
+              src="/assets/images/GIMP images/pexels-kampus-1000x1398-scaled.png"
+              alt="person sitting in front of an office desk with arms crossed"
+            />
+          </picture>
+          <h1>Jonathon Burke</h1>
+        </div>
+
+        <div class="right">
+          <div class="aboutHeading">
+            <h2>About me</h2>
+          </div>
+          <p class="about">
+            Aspiring Full-Stack Web Developer, looking forward to what's cool
+            tomorrow. I am 27 years old and no, that's not me in the picture.
+            But, it goes to show what a sharp hairline does for your website.
+            Currently, I am getting into WebXR and creating immersive web
+            content. If you know of any good resources, you know what to do!
+            While you're here, why not take a look at some of my projects.
+          </p>
+          <div class="contactLinks">
+            <ul>
+              <li>
+                <a href="https://github.com/johnnion1">
+                  <img
+                    class="svgLink"
+                    src="/assets/images/svg/github-original.svg"
+                    alt="github johnnion1"
+                  />
+                </a>
+              </li>
+              <li>
+                <img
+                  class="svgLink"
+                  src="/assets/images/svg/React-icon.svg"
+                  alt="react icon"
+                />
+              </li>
+              <li>
+                <img
+                  class="svgLink"
+                  src="/assets/images/svg/jest-plain.svg"
+                  alt="jest icon"
+                />
+              </li>
+              <li>
+                <img
+                  class="svgLink"
+                  src="/assets/images/svg/webpack-original.svg"
+                  alt="webpack icon"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="main">
+      <h2 class="workHeading">My work</h2>
+
+      <div class="card">
+        <div class="cardPreview green">
+          <img class="previewImg" src="/assets/images/ordered/11.png" alt="" />
+        </div>
+        <div class="cardDetails">
+          <div class="cardHeading">
+            <h3>Admin Dashboard</h3>
+
+            <div class="projectLinks">
+              <a href="https://github.com/johnnion1/admin-dash">
+                <img
+                  class="github"
+                  src="/assets/images/svg/github-original.svg"
+                  alt="github"
+                />
+              </a>
+              <a href="https://johnnion1.github.io/admin-dash/dist/">
+                <img
+                  src="/assets/images/svg/open-in-new.svg"
+                  alt="see admin dashboard, opens in another window"
+                />
+              </a>
+            </div>
+          </div>
+          <p>
+            Getting comfortable using Grid. Using the auto-fit property, the
+            main cards' dimensions and positions are set dynamically.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cardPreview">
+          <img class="previewImg" src="/assets/images/ordered/6.png" alt="" />
+        </div>
+        <div class="cardDetails">
+          <div class="cardHeading">
+            <h3>Shopping Cart</h3>
+            <div class="projectLinks">
+              <a href="https://github.com/johnnion1/shoppin">
+                <img
+                  class="github"
+                  src="/assets/images/svg/github-original.svg"
+                  alt="github"
+                />
+              </a>
+              <a href="https://shoppin.pages.dev/">
+                <img
+                  src="/assets/images/svg/open-in-new.svg"
+                  alt="see react shopping cart, opens in another window"
+                />
+              </a>
+            </div>
+          </div>
+          <p>A React Single-Page-Application. Checkout this fictional shop!</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cardPreview">
+          <img
+            class="previewImg"
+            src="/assets/images/ordered/1halved.png"
+            alt=""
+          />
+        </div>
+        <div class="cardDetails">
+          <div class="cardHeading">
+            <h3>Restaurant Page</h3>
+            <div class="projectLinks">
+              <a href="https://github.com/johnnion1/Restaurant-page">
+                <img
+                  class="github"
+                  src="/assets/images/svg/github-original.svg"
+                  alt="github"
+                />
+              </a>
+              <a href="https://johnnion1.github.io/Restaurant-page">
+                <img
+                  src="/assets/images/svg/open-in-new.svg"
+                  alt="see Restaurant page, opens in another window"
+                />
+              </a>
+            </div>
+          </div>
+          <p>
+            An early exercise in JavaScript DOM manipulation<!-- , ES6import and export statements -->.
+            Using the buttons, explore this fictional landing page.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cardPreview green">
+          <img class="previewImg" src="/assets/images/ordered/14.png" alt="" />
+        </div>
+        <div class="cardDetails">
+          <div class="cardHeading">
+            <h3>Fancy Hamburger</h3>
+
+            <div class="projectLinks unavailable">
+              <a href="#">
+                <img
+                  class="github"
+                  src="/assets/images/svg/github-original.svg"
+                  alt="github"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="/assets/images/svg/open-in-new.svg"
+                  alt="site is not deployed yet"
+                />
+              </a>
+            </div>
+          </div>
+          <p>
+            A custom hamburger menu with fancy animations. Trying out CSS
+            transitions.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cardPreview yellow">
+          <img
+            class="previewImg"
+            src="/assets/images/ordered/2halved.png"
+            alt=""
+          />
+        </div>
+        <div class="cardDetails">
+          <div class="cardHeading">
+            <h3>Weather API UI</h3>
+
+            <div class="projectLinks">
+              <a href="https://github.com/johnnion1/weather-APP/">
+                <img
+                  class="github"
+                  src="/assets/images/svg/github-original.svg"
+                  alt="github"
+                />
+              </a>
+              <a href="https://johnnion1.github.io/weather-APP/">
+                <img
+                  src="/assets/images/svg/open-in-new.svg"
+                  alt="see weather app, opens in another window"
+                />
+              </a>
+            </div>
+          </div>
+          <p>
+            Get your local weather in detail. Practicing async JavaScript by
+            fetching and displaying data from an API.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cardPreview green">
+          <img class="previewImg" src="/assets/images/ordered/16.png" alt="" />
+        </div>
+        <div class="cardDetails">
+          <div class="cardHeading">
+            <h3>J-CIRCUS</h3>
+
+            <div class="projectLinks">
+              <a href="https://johnnion1.github.io/J-Circus/dist/">
+                <img
+                  class="github"
+                  src="/assets/images/svg/github-original.svg"
+                  alt="github"
+                />
+              </a>
+              <a href="">
+                <img
+                  src="/assets/images/svg/open-in-new.svg"
+                  alt="see j-circus, opens in another window"
+                />
+              </a>
+            </div>
+          </div>
+          <p>
+            What this page is supposed to be! Currently only optimized for
+            tablet size devices.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cardPreview pink">
+          <img
+            class="previewImg fill"
+            src="/assets/images/ordered/3.png"
+            alt=""
+          />
+        </div>
+        <div class="cardDetails">
+          <div class="cardHeading">
+            <h3>Tic Tac Toe</h3>
+
+            <div class="projectLinks unavailable">
+              <a href="">
+                <img
+                  class="github"
+                  src="/assets/images/svg/github-original.svg"
+                  alt="github"
+                />
+              </a>
+              <a href="">
+                <img
+                  src="/assets/images/svg/open-in-new.svg"
+                  alt="site is not deployed yet"
+                />
+              </a>
+            </div>
+          </div>
+          <p>
+            Simple game to practice handling data and DOM manipulation in
+            JavaScript.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cardPreview red">
+          <img
+            class="previewImg fill"
+            src="/assets/images/ordered/4.png"
+            alt=""
+          />
+        </div>
+        <div class="cardDetails">
+          <div class="cardHeading">
+            <h3>Knight's travails</h3>
+
+            <div class="projectLinks unavailable">
+              <a href="#">
+                <img
+                  class="github"
+                  src="/assets/images/svg/github-original.svg"
+                  alt="github"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="/assets/images/svg/open-in-new.svg"
+                  alt="site is not deployed yet"
+                />
+              </a>
+            </div>
+          </div>
+          <p>
+            A boardless solution to the knight's tour problem: A sequence of
+            moves by a knight on a chessboard to visit each square exactly once.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cardPreview orange">
+          <img class="previewImg" src="/assets/images/ordered/12.png" alt="" />
+        </div>
+        <div class="cardDetails">
+          <div class="cardHeading">
+            <h3>Cool 3d World</h3>
+
+            <div class="projectLinks">
+              <a href="https://github.com/johnnion1/cool-3d-world">
+                <img
+                  class="github"
+                  src="/assets/images/svg/github-original.svg"
+                  alt="github"
+                />
+              </a>
+              <a href="https://johnnion1.github.io/cool-3d-world/">
+                <img
+                  src="/assets/images/svg/open-in-new.svg"
+                  alt="see cool 3d world, opens in another window"
+                />
+              </a>
+            </div>
+          </div>
+          <p>
+            Experimenting with sliders, got inspired by MDN's translate3d()
+            docs.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cardPreview">
+          <img
+            class="previewImg fill"
+            src="/assets/images/ordered/8.png"
+            alt=""
+          />
+        </div>
+        <div class="cardDetails">
+          <div class="cardHeading">
+            <h3>BST driver</h3>
+
+            <div class="projectLinks unavailable">
+              <a href="">
+                <img
+                  class="github"
+                  src="/assets/images/svg/github-original.svg"
+                  alt="github"
+                />
+              </a>
+              <a href="">
+                <img
+                  src="/assets/images/svg/open-in-new.svg"
+                  alt="site is not deployed yet"
+                />
+              </a>
+            </div>
+          </div>
+          <p>
+            Learning about Data Search Algorithms. An array of numbers is sorted
+            and de-duplicated, then a binary search tree is created and a level
+            order traversal is carried out.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cardPreview green">
+          <img class="previewImg" src="/assets/images/ordered/15.png" alt="" />
+        </div>
+        <div class="cardDetails">
+          <div class="cardHeading">
+            <h3>GifShower</h3>
+
+            <div class="projectLinks">
+              <a href="https://github.com/johnnion1/gifShower">
+                <img
+                  class="github"
+                  src="/assets/images/svg/github-original.svg"
+                  alt="github"
+                />
+              </a>
+              <a href="https://johnnion1.github.io/gifShower/">
+                <img
+                  src="/assets/images/svg/open-in-new.svg"
+                  alt="see gifShower, opens in another window"
+                />
+              </a>
+            </div>
+          </div>
+          <p>
+            Learning how to make API calls and handle responses. Click the
+            button for a random selectionof gifs (3-5) for your search.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cardPreview orange">
+          <img class="previewImg" src="/assets/images/ordered/10.png" alt="" />
+        </div>
+        <div class="cardDetails">
+          <div class="cardHeading">
+            <h3>Kitchen Sim</h3>
+
+            <div class="projectLinks unavailable">
+              <a href="#">
+                <img
+                  class="github"
+                  src="/assets/images/svg/github-original.svg"
+                  alt="github"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="/assets/images/svg/open-in-new.svg"
+                  alt="site is not deployed yet"
+                />
+              </a>
+            </div>
+          </div>
+          <p>
+            Building your next mobile game. An interactive kitchen with React!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div id="footerContent">
+        <div id="contact">
+          <h2>Contact me</h2>
+          <p class="normal message">
+            Please, do get in touch if you feel my work could add value to your
+            endeavours.
+          </p>
+          <p class="normal address">4321 Leiblich</p>
+          <p class="normal address">Nice Avenue 24, Oberstadt</p>
+          <div id="directContact">
+            <button class="cont">
+              <img
+                src="/assets/images/svg/phone-check.svg"
+                alt="telephone me"
+              />+43 678 98765432
+            </button>
+            <button class="cont">
+              <img
+                src="/assets/images/svg/email.svg"
+                alt="email me"
+              />john.placeholder@mail.at
+            </button>
+          </div>
+          <div class="contactLinks">
+            <ul>
+              <li>
+                <a href="https://github.com/johnnion1">
+                  <img
+                    src="/assets/images/svg/github-original.svg"
+                    alt="github johnnion1"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="/assets/images/svg/linkedin-original.svg"
+                    style="color: black"
+                    alt="linkedin profile (unavailable)"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://webpack.js.org/"
+                  ><img
+                    src="/assets/images/svg/webpack-original.svg"
+                    alt="webpack"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <picture>
+          <source
+            media="(max-width: 799px)"
+            srcset="/assets/images/GIMP images/pexels-two-540w-scaled.jpg"
+          />
+          <source
+            media="(min-width: 800px)"
+            srcset="/assets/images/GIMP images/pexels-two-1000x980-scaled.jpg"
+          />
+          <img
+            id="footerMainImage"
+            src="/assets/images/GIMP images/pexels-two-540w-scaled.jpg"
+            alt="person sitting on an office desk with arms crossed"
+          />
+        </picture>
+      </div>
+    </footer>
+  </body>
+</html>
